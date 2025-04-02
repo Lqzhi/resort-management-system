@@ -1,0 +1,38 @@
+{
+  "CN_ERR": {
+    "USERNAME_OR_PASSWORD_IS_REQUIRED": "需要用户名或密码",
+    "USERNAME_ALREADY_EXIST": "用户名已存在",
+    "USERNAME_DOSE_NOT_EXIST": "用户名不存在",
+    "PASSORD_ERROR": "密码错误",
+    "UNAUTHORIZATION": "未经授权",
+    "NO_PERMISION": "没有权限",
+    "QUERY_KEY_ERROR": "查询键缺失或不正确",
+    "PARMS_VALUE_ERROR": "参数不在范围内",
+    "QUERY_VALUE_ERROR": "查询值不在范围内",
+    "PATH_DOES_NOT_EXIST":"路径不存在"
+  },
+  "ENG_ERR": {
+    "USERNAME_OR_PASSWORD_IS_REQUIRED": "Username or password is required",
+    "USERNAME_ALREADY_EXIST": "Username already exist",
+    "USERNAME_DOSE_NOT_EXIST": "Username dose not exist",
+    "PASSORD_ERROR": "Password error",
+    "UNAUTHORIZATION": "Unauthorization",
+    "NO_PERMISION": "No permission",
+    "QUERY_KEY_ERROR": "Query key is lack or incorrect",
+    "PARAMS_VALUE_ERROR": "Params is not in scope",
+    "QUERY_VALUE_ERROR": "Query value is not in scope",
+    "PATH_DOES_NOT_EXIST":"Not Found"
+  },
+  "ERR_CODE":{
+    "USERNAME_OR_PASSWORD_IS_REQUIRED": 400,
+    "USERNAME_ALREADY_EXIST": 409,
+    "USERNAME_DOSE_NOT_EXIST": 400,
+    "PASSORD_ERROR": 401,
+    "UNAUTHORIZATION": 403,
+    "NO_PERMISION": 401,
+    "QUERY_KEY_ERROR": 400,
+    "PARMS_VALUE_ERROR": 400,
+    "QUERY_VALUE_ERROR": 400,
+    "PATH_DOES_NOT_EXIST":404
+  }
+}

@@ -1,0 +1,30 @@
+{
+	"config_name" : "develop",
+	"jwt_config" : {
+		"secret":"linwenxin",
+		"expiresIn":"700d",
+		"algorithms":["HS256"]
+	},
+	"upload_config":{
+		"baseURL":"127.0.0.1:5002",
+		"upload_ueditor":"uploads/ueditor",
+		"simple_upload_redirect":"127.0.0.1/reload"
+	},
+	"pool_config" : {
+		"host" : "127.0.0.1",
+		"database" : "resort_man_sys",
+		"user" : "root",
+		"password" : "123456",
+		"port" : 3306,
+		"waitForConnections": true,
+		"connectionLimit": 120,
+		"queueLimit": 0
+	},
+	"bcrypt_config":{
+		"saltRounds":10
+	},
+	"md5_config":{
+		"salt":"linwenxin"
+	}
+
+}

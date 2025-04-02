@@ -1,0 +1,20 @@
+html, body, #app{
+      /* margin: 0;
+    padding: 0; */
+    min-width: 750px;
+    /* max-width: 2000px; */
+    width:100vw;
+    margin: 0 auto; 
+    background-color: #a4bbed;
+    /* font-size:2vmin; */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* min-width: 1366px; */
+}
+.el-step__title{
+    font-size: 13px;
+}
+.ql-editor{
+    min-height: 310px;
+}

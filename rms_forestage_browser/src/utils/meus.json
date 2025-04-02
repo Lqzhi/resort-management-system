@@ -1,0 +1,183 @@
+{
+  "data": [
+    {
+      "id": 100,
+      "authName": "管理员用户管理",
+      "path": "users",
+      "children": [
+        {
+          "id": 120,
+          "authName": "用户列表",
+          "path": "users",
+          "children": [],
+          "order": null
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": 101,
+      "authName": "游客用户管理",
+      "path": "tourists",
+      "children": [
+        {
+          "id": 121,
+          "authName": "用户列表",
+          "path": "tourists",
+          "children": [],
+          "order": null
+        }
+      ],
+      "order": 1
+    },
+
+
+    {
+      "id": 102,
+      "authName": "角色管理",
+      "path": "users",
+      "children": [
+        {
+          "id": 122,
+          "authName": "角色列表",
+          "path": "roles",
+          "children": [],
+          "order": null
+        }
+      ],
+      "order": 1
+    },
+   
+    {
+      "id": 103,
+      "authName": "权限管理",
+      "path": "rights",
+      "children": [
+        {
+          "id": 123,
+          "authName": "权限列表",
+          "path": "rights",
+          "children": [],
+          "order": null
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": 104,
+      "authName": "房间管理",
+      "path": "rooms",
+      "children": [
+        {
+          "id": 124,
+          "authName": "房间列表",
+          "path": "rooms",
+          "children": [],
+          "order": 1
+        },
+        {
+          "id": 125,
+          "authName": "房间分类",
+          "path": "roomcates",
+          "children": [],
+          "order": 3
+        }
+      ],
+      "order": 3
+    },
+    {
+      "id": 105,
+      "authName": "景点管理",
+      "path": "address",
+      "children": [
+        {
+          "id": 126,
+          "authName": "景点列表",
+          "path": "address",
+          "children": [],
+          "order": 1
+        },
+        {
+          "id": 127,
+          "authName": "景点分类",
+          "path": "addresscates",
+          "children": [],
+          "order": 3
+        }
+      ],
+      "order": 3
+    },
+    {
+      "id": 106,
+      "authName": "文章管理",
+      "path": "articles",
+      "children": [
+        {
+          "id": 128,
+          "authName": "文章列表",
+          "path": "articles",
+          "children": [],
+          "order": 1
+        },
+        {
+          "id": 129,
+          "authName": "文章分类",
+          "path": "articlecates",
+          "children": [],
+          "order": 3
+        }
+      ],
+      "order": 3
+    },
+    {
+      "id": 107,
+      "authName": "订单管理",
+      "path": "orders",
+      "children": [
+        {
+          "id": 130,
+          "authName": "订单列表",
+          "path": "orders",
+          "children": [],
+          "order": null
+        }
+      ],
+      "order": 4
+    },
+    {
+      "id": 108,
+      "authName": "数据统计",
+      "path": "charts",
+      "children": [
+        {
+          "id": 131,
+          "authName": "数据报表",
+          "path": "charts",
+          "children": [],
+          "order": null
+        }
+      ],
+      "order": 5
+    },
+    {
+      "id": 109,
+      "authName": "个人中心",
+      "path": "personal",
+      "children": [
+        {
+          "id": 132,
+          "authName": "基本信息",
+          "path": "personal",
+          "children": [],
+          "order": null
+        }
+      ],
+      "order": 1
+    }
+  ],
+  
+  "meta": {
+    "msg": "获取菜单列表成功",
+    "status": 200
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "rms_backstage_server",
+  "version": "1.0.0",
+  "description": "这是一个温泉度假村管理系统的后台后端",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "node src/app.js",
+    "start": "nodemon src/app.js",
+    "line": "pm2 start src/app.js--rbs",
+    "linestop": "pm2 stop rbs"
+  },
+  "dependencies": {
+    "@escook/express-joi": "^1.1.1",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-jwt": "^7.7.7",
+    "joi": "^17.7.0",
+    "mysql2": "^2.3.3",
+    "redis": "^4.3.1",
+    "xss": "^1.0.14"
+  }
+}
